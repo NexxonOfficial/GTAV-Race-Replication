@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+      <TargetFramework>netstandard2.0</TargetFramework>
+      <DebugType>portable</DebugType>
+      <TargetName>$(AssemblyName).net</TargetName>
+      <DefineConstants>SERVER</DefineConstants>
+    </PropertyGroup>
+  
+    <ItemGroup>
+      <PackageReference Include="CitizenFX.Core.Server" Version="1.0.*" />
+      <PackageReference Include="FxEvents.Server" Version="2.6.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  
+      <Compile Include="../Shared/**/*.cs" />
+    </ItemGroup>
+	<PropertyGroup>
+		<LangVersion>latest</LangVersion>
+	</PropertyGroup>
+	<Import Project="..\yep.Shared\yep.Shared.projitems" Label="Shared" />
+</Project>
+  

@@ -1,0 +1,27 @@
+[
+  {
+    "RaceName": "Some Race",
+    "RaceDesc": "Some description",
+    "RaceImage": "https://cdn.racinggames.gg/images/ncavvykf/racinggames/f61abd0fadd8bd96aad983737728aa1ebcbc9ea3-1920x1080.jpg?w=800&h=450&auto=format",
+    "RaceCreator": "Nex",
+    "RaceType": "Regular",
+    "RaceSelection": {
+      "x": -188.01,
+      "y": -895.01,
+      "z": 29.34,
+      "h": 296.21
+    },
+    "RacePreviewCamera": {
+      "x": -188.01,
+      "y": -895.01,
+      "z": 100.87,
+      "h": 296.21
+    },
+    "GridStartPosition": {
+      "x": -137.65,
+      "y": -908.19,
+      "z": 28.82,
+      "h":  68.82
+    }
+  }
+]
